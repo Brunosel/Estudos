@@ -1,5 +1,7 @@
-# Desafio-projeto
-Desafio de projeto criando repositório no git hub
+# Repositório para estudos Santander
+ - Criação do repositório 
+ - Estudando HTML5 e construindo site
+
 
 ## Links Utéis
 
