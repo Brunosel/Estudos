@@ -1,9 +1,22 @@
 body {
     background-color: #f7f7f7;
+    font-family: Verdana;
+    max-width: 750px;
+    margin: auto;
 }
 
 #title, .subtitle, .post_title {
     color : #505050;
+}
+
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.link {
+    text-decoration: line-through cornflowerblue;
+    color: #505050;
 }
 
 .post_title {
@@ -24,8 +37,19 @@ body {
 .post_content {
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
 }
 
 .post_image {
-    margin-bottom: 15px;    
+    margin-bottom: 15px;
+    width: 100%;    
+}
+
+.contact_list {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contact_list li a {
+    text-decoration: none;
 }
