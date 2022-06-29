@@ -1,7 +1,7 @@
 # Repositório para estudos Santander
  - Criação do repositório 
  - Estudando HTML5 e CSS
-
+ - Estudando JavaScript
 
 ## Links Utéis
 
