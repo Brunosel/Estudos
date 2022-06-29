@@ -1,0 +1,59 @@
+* {
+    font-family: -apple-system, system-ui;
+}
+
+body {
+    background-color: rgb(210, 210, 210);
+    margin: 0;
+    padding: 0;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 935px;
+    margin: auto;
+    align-items: center;
+}
+
+.main-box h1 {
+    display: block;
+}
+
+.button-box {
+    display: flex;
+    width: 20%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+button {
+    height: 50px;
+    border: 4px solid white;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgb(27, 27, 27);
+    color: azure;
+    font-weight: 500;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+#number {
+
+}
+
+#subtract {
+
+}
+
+#sum {
+    
+}
+
