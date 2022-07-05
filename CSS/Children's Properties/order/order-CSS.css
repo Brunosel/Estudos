@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    background-color: blueviolet;
+    max-width: 300px; 
+}
+
+.item {
+    background-color: orange;
+    margin: 5px;
+    flex: 1;
+    font-size: 24px;
+    border: 1px solid aliceblue;
+    text-align: center;
+    color: aliceblue;
+}
+
+.direction {
+    flex-direction: column;
+}
+
+.order1 {
+    order: 1;
+}
+
+.order2 {
+    order: 2;
+}
+
+.order3 {
+    order: 3;
+}

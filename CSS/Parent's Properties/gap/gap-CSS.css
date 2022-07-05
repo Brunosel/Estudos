@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    background-color: purple;
+    max-width: 275px;
+    flex-wrap: wrap;
+}
+
+.item {
+    margin: 5px;
+    min-width: 50px;
+    background-color: orange;
+    text-align: center;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+}
+
+.row-gap {
+    row-gap: 10px;
+}
+
+.column-gap {
+    column-gap: 10px;
+}
+
+.gap {
+    gap: 10px 20px;
+}

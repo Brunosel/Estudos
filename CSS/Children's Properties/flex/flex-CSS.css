@@ -1,0 +1,27 @@
+.container {
+    background-color: blueviolet;
+    max-width: 400px;
+    display: flex;
+}
+
+.item {
+    background-color: orange;
+    text-align: center;
+    margin: 5px;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+}
+
+.largura {
+    width: 200px;
+}
+
+.flex-1 {
+    flex: 1;
+    /* grow = 1 shrink = 1 basis = 0 */
+}
+
+.flex-2 {
+    flex: 2;
+    /* grow = 2 shrink = 1 basis = 0 */
+}
