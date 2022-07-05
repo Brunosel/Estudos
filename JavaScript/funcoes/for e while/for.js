@@ -1,7 +1,7 @@
-/*function multiplacadorPorDois(array) {
+function multiplacadorPorDois(array) {
     let multiplacados = [];
 
-    for (let i = 0, x = array.lenght; i < x; i++) {
+    for (let i = 0, x = array.length; i < x; i++) {
         multiplacados.push(array[i] * 2);
     }
 
@@ -10,7 +10,7 @@
 
 const meusNumeros = [2, 33, 456, 356, 40];
 
-multiplacadorPorDois(meusNumeros);*/
+multiplacadorPorDois(meusNumeros);
 
 // for in 
 

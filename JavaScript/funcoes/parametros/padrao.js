@@ -6,7 +6,7 @@ function exponencial(array, num) {
 
     const result = [];
 
-    for (let i = 0, x = array.lenght; i < x;i++) {
+    for (let i = 0, x = array.length; i < x;i++) {
         result.push(array[i] ** num);
     }
     return result;
@@ -16,7 +16,7 @@ function exponencial(array, num) {
 function exponencialn(array, num = 1) {
     const result = [];
 
-    for (let i = 0, x = array.lenght; i < x;i++) {
+    for (let i = 0, x = array.length; i < x;i++) {
         result.push(array[i] ** num);
     }
 }
