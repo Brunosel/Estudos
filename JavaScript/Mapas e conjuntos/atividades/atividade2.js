@@ -6,3 +6,11 @@ for (i = 0, x = numbers.length; i < x; i++) {
 }
 
 console.log(mySet);
+
+// function arraySet(arr) {
+//     const mySet = new Set(arr);
+
+//     return mySet
+// }
+
+// console.log(arraySet(numbers));
