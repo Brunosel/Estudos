@@ -3,3 +3,7 @@ function verificaPalindromo(string) {
 
     return string === string.split('').reverse().join('');
 }
+
+export {
+    verificaPalindromo
+}
