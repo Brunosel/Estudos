@@ -7,6 +7,8 @@ function tryCatchExemplo(string) {
         verificaPalindromo(string);
     } catch (error) {
         throw error;
+    } finally {
+        console.log('A string enviada foi: ' + string);
     }
 } 
 
