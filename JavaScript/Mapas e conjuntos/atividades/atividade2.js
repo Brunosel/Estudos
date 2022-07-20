@@ -10,7 +10,7 @@ console.log(mySet);
 // function arraySet(arr) {
 //     const mySet = new Set(arr);
 
-//     return mySet
+//     return [...mySet]
 // }
 
 // console.log(arraySet(numbers));
